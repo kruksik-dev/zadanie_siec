@@ -1,0 +1,82 @@
+body{
+    background-color: #F2F2F2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #606060;
+}
+.top{
+    text-align: center;
+    border:1px solid #fff;
+    padding: 20px;
+    margin: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 10px -4px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 4px 10px -4px rgba(66, 68, 90, 1);
+    box-shadow: 0px 4px 10px -4px rgba(66, 68, 90, 1);
+}
+.center{
+    vertical-align:middle;
+}
+.settings-grid{
+    display: flex;
+    margin-top: 50px;
+    height: 100px;
+    width: calc(100% - 500px);
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 4px 10px -4px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 4px 10px -4px rgba(66, 68, 90, 1);
+    box-shadow: 0px 4px 10px -4px rgba(66, 68, 90, 1);
+    padding: 5px;
+    border-radius: 5px;
+    gap: 90px;
+}
+
+.label_dd{
+    padding-top: 35px;
+    padding-left: 10px;
+}
+.dd-menu{
+    color:#000;
+    width: 250px;
+    padding-top: 25px;
+}
+
+.datasetlabel{
+    padding-top: 30px;
+}
+
+
+
+.DataPanel{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap:20px;
+    margin-top: 50px;
+    width: calc(100% - 50px);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    
+
+}
+
+ .card{ 
+   background-color: #fff;
+    -webkit-box-shadow: 0px 4px 10px -4px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 4px 10px -4px rgba(66, 68, 90, 1);
+    box-shadow: 0px 4px 10px -4px rgba(66, 68, 90, 1);  
+
+}
+
+.graph{
+   margin-top: 10px;
+}
+
+.bottomplot{
+     width: calc(100% - 50px);
+     margin-right: auto;
+    margin-left: auto;
+        padding: 20px;
+}
